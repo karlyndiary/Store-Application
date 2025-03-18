@@ -1,0 +1,27 @@
+body.full-content, body {
+    /* background: #f4f6f9; */
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    padding-top: 0;
+}
+
+.limit-chars li:last-child{
+    width:15vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 14px;
+    margin-top:-2px;
+}
+
+.navbar-default {
+    padding: 5px;
+    z-index: 999;
+}
+
+.breadcrumb {
+    font-size: 26px;
+    padding: 5px 0 0 15px;
+    line-height: 10px;
+    display: inline-flex;
+}
